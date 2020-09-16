@@ -1,15 +1,19 @@
 import React from 'react';
-import './App.css';
 import WordCard from './WordCard';
+import logo from './veterinary.svg';
+import './App.css';
 function App() {
-  const word = "Hello";
   return (
     <div className="App">
-      <div>
-        {
+      <header className="App-header">
+        <div> 
           <WordCard value="hello"/>
-        }
-      </div>
+        </div>
+        <img src={logo} className="App-logo"/>
+        <p>
+          phumiphat Mathon
+        </p>
+      </header>
     </div>
   );
 }
