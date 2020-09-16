@@ -1,6 +1,6 @@
 import React from 'react';
 import WordCard from './WordCard';
-import logo from './veterinary.svg';
+import logo from './spaceship.svg';
 import './App.css';
 function App() {
   return (
@@ -11,7 +11,7 @@ function App() {
         </div>
         <img src={logo} className="App-logo"/>
         <p>
-          phumiphat Mathon
+          Phumiphat Mathon 6135512037
         </p>
       </header>
     </div>
